@@ -35,7 +35,7 @@ display_card_total(sum)
 sum
 end
 
-def hit?
+def hit?(current_card_value)
   # code hit? here
   prompt_user
   user_input = get_user_input
