@@ -52,9 +52,7 @@ end
 
 def invalid_command
   # code invalid_command here
-sum = deal_card + deal_card
-display_card_total(sum)
-sum
+puts "Please enter a valid command"
 end
 
 #####################################################
